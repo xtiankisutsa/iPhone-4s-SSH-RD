@@ -23,14 +23,15 @@ afc2
 12. The shell should appear in irecovery
 13. /send DeviceTree.n94ap.img3
 14. devicetree
-15. /send ssh_ramdisk
-16. ramdisk
-17. /send kernelcache.release.n94
-18. bootx
-19. now device should boot verbosely and after it should show restore progress
-20. now : ./iproxy 2222 22
-21. in second terminal window write : ssh root@localhost -p2222
-22. DONE !!!! YOU CAN ENJOY YOUR ROOT COMMANDS AND YOU CAN ENJOY EXPLORING FILESYSTEM FOR EXAMPLE VIA CYBERDUCK
+15. Unpack ssh-ramdisk.zip
+16. /send ssh_ramdisk
+17. ramdisk
+18. /send kernelcache.release.n94
+19. bootx
+20. now device should boot verbosely and after it should show restore progress
+21. now : ./iproxy 2222 22
+22. in second terminal window write : ssh root@localhost -p2222
+23. DONE !!!! YOU CAN ENJOY YOUR ROOT COMMANDS AND YOU CAN ENJOY EXPLORING FILESYSTEM FOR EXAMPLE VIA CYBERDUCK
 
 # Credits 
 Thanks to @Arsevka_JDM for helping me with this 
